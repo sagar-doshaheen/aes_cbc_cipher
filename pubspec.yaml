@@ -1,0 +1,16 @@
+name: aes_cbc_cipher
+description: The `AESCBCCipher` is a singleton class that provides AES encryption and decryption functionality using the `encrypt` package. It is used to encrypt and decrypt data using the AES (Advanced Encryption Standard) algorithm in CBC (Cipher Block Chaining) mode.
+version: 1.0.0
+homepage: https://github.com/sagar-doshaheen/aes_cbc_cipher
+repository: https://github.com/sagar-doshaheen/aes_cbc_cipher
+
+environment:
+  sdk: ^3.0.6
+
+# Add regular dependencies here.
+dependencies:
+  encrypt: ^5.0.1
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
